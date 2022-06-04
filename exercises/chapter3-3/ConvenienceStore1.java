@@ -5,10 +5,10 @@ class Main {
       try (Scanner scanner = new Scanner(System.in)) {
          scanner.nextInt();
 
-         int countOf100 = 0;
-         int countOf200 = 0;
-         int countOf300 = 0;
-         int countOf400 = 0;
+         long countOf100 = 0;
+         long countOf200 = 0;
+         long countOf300 = 0;
+         long countOf400 = 0;
          while (scanner.hasNext()) {
             switch (scanner.nextInt()) {
                case 100:
