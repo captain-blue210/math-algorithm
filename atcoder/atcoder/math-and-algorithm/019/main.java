@@ -37,6 +37,6 @@ class Main {
     }
 
     static long calcItem(long count) {
-        return (count * count) - count / 2;
+        return ((count * count) - count) / 2;
     }
 }
