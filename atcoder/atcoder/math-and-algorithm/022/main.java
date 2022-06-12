@@ -11,12 +11,11 @@ class Main {
             cards[i++] = sc.nextInt();
         }
 
-        int[] counts = new int[100000];
+        long[] counts = new long[100000];
         for (int k = 1; k <= 99999; k++) {
             counts[k] = 0;
         }
         for (int j : cards) {
-            System.out.println("cards: " + j);
             counts[j] += 1;
         }
 
